@@ -1,0 +1,215 @@
+.mainpage{
+    color:rgb(126,229,154);
+    background-color: rgb(10,35,55);
+    text-align:center;
+}
+
+.mainpage:hover{
+    color:rgb(10,35,55);
+    background-color: rgb(126,229,154);
+    text-align:center;
+}
+
+.field2{
+    /* background-color:rgb(126,229,154); */
+    color:rgb(126,229,154);
+    display:flex;
+    justify-content: space-between;
+}
+
+.field1{
+    color:rgb(126,229,154);
+    font-style:oblique;
+    display:flex;
+    justify-content: space-between;
+    position: static;
+    /* border: solid 2px rgb(126,229,154); */
+    max-width: 1600px;
+    /* background-color: rgb(126,229,154); */
+}
+
+.buttonlist{
+    flex-direction: column;
+    color: rgb(126,229,154);
+    background-color:rgb(10,35,55);
+}
+
+.buttonlist:hover{
+    flex-direction: column;
+    color: rgb(10,35,55);
+    background-color:rgb(126,229,154);
+}
+
+.welcomealert{
+    background-color: rgb(10,35,55);
+    color: rgb(126,229,154);
+}
+
+.welcomealert:hover{
+    background-color: rgb(126,229,154);
+    color: rgb(10,35,55);
+}
+
+.mainbody{
+    background-color: rgb(10,35,55);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    flex-wrap: wrap;
+}
+
+.contactmain{
+    color: rgb(126,229,154);
+}
+
+.inbox__people{
+    flex-direction: column;
+    color: rgb(10,35,55);
+    background-color:rgb(126,229,154);
+    padding: 16px;
+}
+  
+  /* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px;
+/* position: fixed; */
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(10,35,55);
+    overflow-x: hidden;
+}
+
+  /*make the active user text inherit style from container*/
+
+.inbox__people{
+    color: rgb(126,229,154);
+    background-color: rgb(10,35,55);
+    padding: 16px;
+}
+  
+  /* Style the content */
+.content {
+    overflow: auto;
+    position:fixed;  
+    background-color: rgb(10,35,55);
+    margin-left: 600px;
+    padding-left: 60px;
+}
+
+.field3{
+    background-color:rgb(10,35,55);
+    color: rgb(126,229,154);
+    display:flex;
+    justify-content: space-between;
+}
+
+.message_form__button{
+    color: rgb(10,35,55);
+    background-color: rgb(126,229,154);
+    /* text-align:center; */
+}
+
+.message_form__button:hover{
+    color: rgb(126,229,154);
+    background-color: rgb(10,35,55);
+    /* text-align:center; */
+}
+
+.exitchat{
+    color: rgb(10,35,55);
+    background-color: rgb(126,229,154);
+}
+
+.exitchat:hover{
+    color: rgb(126,229,154);
+    background-color: rgb(10,35,55);
+    /* text-align:center; */
+}
+
+.message_form__input{
+    color: rgb(10,35,55);
+    /* text-align:center; */
+}
+
+.field4{
+    color:rgb(126,229,154);
+    background-color: rgb(10,35,55);
+}
+
+.aboutus{
+    background-color: rgb(10,35,55);
+    color: rgb(126,229,154);
+    text-align:center;
+}
+
+.footer{
+    color: rgb(126,229,154);
+    text-align: end;
+}
+
+.how{
+    color: rgb(126,229,154);
+}
+
+.wikioverflow{
+    border: solid rgb(10,35,55);
+    height: 200px;
+    width: 1000px;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+.tabmenu{
+    background-color:rgb(126,229,154);
+    display:flexbox;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.item{
+    color:rgb(10,35,55);
+    background-color:rgb(126,229,154);
+    display:flexbox;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.item:hover{
+    color:rgb(126,229,154);
+    background-color:rgb(10,35,55);
+    display:flexbox;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.source{
+    color: rgb(126,229,154);
+}
+
+.source:hover{
+    color: rgb(10,35,55);
+    background-color:rgb(126,229,154);
+}
+
+.comment{
+    color: rgb(126,229,154);
+    text-align: center;
+}
+
+.topiccrea{
+    color: rgb(126,229,154);
+    /* text-align: center; */
+}
+
+.topic{
+    color: rgb(126,229,154);
+}
+
+.form-row{
+    padding:1px 0;
+    display: flex;
+}
+
+.form-row input{
+    flex: 1;
+}
